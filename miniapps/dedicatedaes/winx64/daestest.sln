@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "daes", "daes\daes.vcxproj", "{7270156E-11A7-4AB7-A3AC-26615311DC10}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "daestest", "daestest\daestest.vcxproj", "{26B1F781-9175-4EC9-A3D5-6404E849C6E6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7270156E-11A7-4AB7-A3AC-26615311DC10}.Debug|x64.ActiveCfg = Debug|x64
+		{7270156E-11A7-4AB7-A3AC-26615311DC10}.Debug|x64.Build.0 = Debug|x64
+		{7270156E-11A7-4AB7-A3AC-26615311DC10}.Release|x64.ActiveCfg = Release|x64
+		{7270156E-11A7-4AB7-A3AC-26615311DC10}.Release|x64.Build.0 = Release|x64
+		{26B1F781-9175-4EC9-A3D5-6404E849C6E6}.Debug|x64.ActiveCfg = Debug|x64
+		{26B1F781-9175-4EC9-A3D5-6404E849C6E6}.Debug|x64.Build.0 = Debug|x64
+		{26B1F781-9175-4EC9-A3D5-6404E849C6E6}.Release|x64.ActiveCfg = Release|x64
+		{26B1F781-9175-4EC9-A3D5-6404E849C6E6}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

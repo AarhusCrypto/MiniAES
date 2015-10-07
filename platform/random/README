@@ -1,0 +1,13 @@
+************************************************************
+
+
+			Random
+
+
+************************************************************
+
+Getting a reliable random data-source is a challenging task. This
+project gives a COO-style abstraction over various random sources
+available on the platforms supported. Currently we support a weak
+source based on srand, rand libc library functions and one based on
+INTEL's RdRand instruction.

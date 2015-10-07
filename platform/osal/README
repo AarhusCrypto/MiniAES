@@ -1,0 +1,16 @@
+************************************************************
+
+
+		Operating System Abstraction Layer
+
+
+
+************************************************************
+
+
+osal.h defines the abstraction layer. This project has platform
+specific sources and general sources. Support for Posix style systems
+are implemented in posix_src while windows ai64 based systems are 
+implemented in winx64_src.
+
+

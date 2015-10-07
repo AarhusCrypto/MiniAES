@@ -1,0 +1,8 @@
+************************************************************
+
+  GMP - This Free Software Foundation Arithmetic Library
+
+
+************************************************************
+
+This project provides a COO-style object wrapping of GMP.

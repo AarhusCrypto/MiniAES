@@ -1,0 +1,141 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Test Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Dep Files">
+      <UniqueIdentifier>{34d43642-f9a1-4a08-abd5-475a16f917a4}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="daestest.c">
+      <Filter>Test Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\platform\osal\src\common.c">
+      <Filter>Dep Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\platform\osal\src\rnd.c">
+      <Filter>Dep Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\platform\osal\src\singlelinkedlist.c">
+      <Filter>Dep Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\platform\osal\winx64_src\coov4.c">
+      <Filter>Dep Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\platform\osal\winx64_src\mutex2.c">
+      <Filter>Dep Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\platform\osal\winx64_src\osal.c">
+      <Filter>Dep Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\platform\datetime\src\datetime.c">
+      <Filter>Dep Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\minitrix\cminimacs\src\ass\ass.c">
+      <Filter>Dep Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\minitrix\cminimacs\src\bedoza\bedoza_mac.c">
+      <Filter>Dep Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\minitrix\cminimacs\src\minimacs\bitwisemulpar2_minimacs.c">
+      <Filter>Dep Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\minitrix\cminimacs\src\minimacs\minimacs.c">
+      <Filter>Dep Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\minitrix\cminimacs\src\minimacs\minimacs_pre.c">
+      <Filter>Dep Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\minitrix\cminimacs\src\minimacs\minimacs_rep.c">
+      <Filter>Dep Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\minitrix\cminimacs\src\reedsolomon\minimacs_bit_encoder.c">
+      <Filter>Dep Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\minitrix\cminimacs\src\reedsolomon\minimacs_bitfft_encoder.c">
+      <Filter>Dep Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\minitrix\cminimacs\src\reedsolomon\minimacs_combi_encoder.c">
+      <Filter>Dep Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\minitrix\cminimacs\src\reedsolomon\minimacs_enc_fft.c">
+      <Filter>Dep Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\minitrix\cminimacs\src\reedsolomon\reedsolomon.c">
+      <Filter>Dep Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\minitrix\math\src\math\fft.c">
+      <Filter>Dep Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\minitrix\math\src\math\matrix.c">
+      <Filter>Dep Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\minitrix\math\src\math\polynomial.c">
+      <Filter>Dep Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\common\carena\src\carena.c">
+      <Filter>Dep Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\common\ds\src\blockingqueue.c">
+      <Filter>Dep Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\common\ds\src\hashmap.c">
+      <Filter>Dep Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\common\ds\src\map.c">
+      <Filter>Dep Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\common\ds\src\stats.c">
+      <Filter>Dep Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\common\encoding\src\encoding\der.c">
+      <Filter>Dep Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\common\encoding\src\encoding\hex.c">
+      <Filter>Dep Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\common\encoding\src\encoding\int.c">
+      <Filter>Dep Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\common\utils\src\utils\options.c">
+      <Filter>Dep Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\platform\osal\posix_src\fs.c">
+      <Filter>Dep Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\platform\osal\test\testcase.c">
+      <Filter>Dep Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\cheetah.c">
+      <Filter>Dep Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\cheetah_pre.c">
+      <Filter>Dep Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\mpc_aes.c">
+      <Filter>Dep Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\platform\osal\src\intkeymap.c">
+      <Filter>Dep Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="..\..\..\..\platform\osal\winx64_src\coov4.asm">
+      <Filter>Dep Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\..\..\platform\osal\winx64_src\mutex.asm">
+      <Filter>Dep Files</Filter>
+    </CustomBuild>
+  </ItemGroup>
+</Project>

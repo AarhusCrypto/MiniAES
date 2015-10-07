@@ -1,0 +1,36 @@
+------------------------------------------------------------
+
+                       CHEETAH
+                 Fast Multiparty AES
+
+
+The Cheetah is the fastests land animal in the world accelerates from
+0 - 100 km/h in 3 seconds. This implementation is the fastests land
+based MPC AES in the world computating 7 blocks of AES in less than 3
+milliseconds. Hence the name !
+
+Synopsis:
+---------
+We take the MiniMac protocol generic version and extend with
+four new functions which are AES specific:
+
+SBox(dst_id, op1_id) that takes two heap locations one for the
+destination of the operation and the operand to which we apply the
+SBox. In this incarnation the SBox is preprocessed and takes opening.
+
+SBox_pol(dst_id, op1_id) that evaluates the S-Box as a polynomial
+using bit decomposition triples with six multiplications for one S-Box
+evaluation. This is done on all bytes in the operand.
+
+SrMc(dst_id, op1_id) that takes two heap locations one for the result
+and one for the sole operand. The code word in the operand is
+considered as seven (and a half) AES states. We consume a preprocessed
+linear transformation corresponding to the shift-rows and mix columns
+tasks in AES.
+
+Sr(dst_id, op1_id) that takes two heap locations one for the result
+and one for the sole operand. The code word in the operand is
+considered as seven (and a half) AES states. We consume a proprocessed
+linear transformation corresponsing only to the shift-rows step in
+AES.
+------------------------------------------------------------
