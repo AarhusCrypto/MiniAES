@@ -17,11 +17,11 @@
 REPRODUCING OUR EXPERIMENTS:
 --------------------
 
-1) Download the code
-2) Install required software for building the code
-3) Build the code
-4) Perform pre-processing generation
-5) Start the monitor and Run the MPC peers 
+  1) Download the code
+  2) Install required software for building the code
+  3) Build the code
+  4) Perform pre-processing generation
+  5) Start the monitor and Run the MPC peers 
 
 Requirements
 ----------
